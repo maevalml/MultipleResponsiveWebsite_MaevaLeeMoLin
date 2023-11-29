@@ -134,7 +134,7 @@ footer ul li a{
 /*really large screens*/
 @media screen and (min-width: 70em){
     .hero{
-        min-height: 29rem;
+        min-height: 24rem;
     }
 
     .gallery-images {
@@ -142,7 +142,7 @@ footer ul li a{
     }
 
     .about p, footer ul li a{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -165,7 +165,7 @@ footer ul li a{
     }
 
     .hero{
-        min-height: 20rem;
+        min-height: 18rem;
     }
 
     .about img{
