@@ -32,7 +32,8 @@ nav a{
 
 #menu-toggle {
     display: none;
-    background-color: var(--dark-color);
+    background-color: var(--light-color);
+    font-size: 1rem;
     color: var(--dark-color);
     border: none;
 }
@@ -133,7 +134,7 @@ footer ul li a{
 /*really large screens*/
 @media screen and (min-width: 70em){
     .hero{
-        min-height: 40rem;
+        min-height: 29rem;
     }
 
     .gallery-images {
@@ -164,7 +165,7 @@ footer ul li a{
     }
 
     .hero{
-        min-height: 25rem;
+        min-height: 20rem;
     }
 
     .about img{
@@ -182,7 +183,7 @@ footer ul li a{
 
     #menu-toggle {
         display: block;
-        color: rgb(255, 249, 249);
+        color: var(--dark-color);
     }
     #menu {
         display: none;
