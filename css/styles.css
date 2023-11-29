@@ -15,10 +15,8 @@ nav {
     background-color: var(--light-color);
     padding: 0.75rem;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
-
-
 
 nav a{
     text-decoration: none;
@@ -33,7 +31,7 @@ nav a{
 
 #menu-toggle {
     display: none;
-    background-color: var(--light-color);
+    background-color: var(--dark-color);
     color: var(--dark-color);
     border: none;
 }
@@ -152,12 +150,16 @@ footer ul li a{
     .gallery-images {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .about img{
+        width: 6rem;
+    }
 }
 
 /*mobile screens*/
 @media screen and (max-width:30em) {
-    .logo{
-        width: 6rem;
+    nav img{
+        align-items: center;
     }
 
     .hero{
@@ -165,7 +167,7 @@ footer ul li a{
     }
 
     .about img{
-        width: 40%;
+        width: 5rem;
         padding: 0.5rem;
     }
 
@@ -179,6 +181,7 @@ footer ul li a{
 
     #menu-toggle {
         display: block;
+        color: rgb(255, 249, 249);
     }
     #menu {
         display: none;
