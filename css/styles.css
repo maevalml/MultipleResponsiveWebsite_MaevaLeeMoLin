@@ -16,6 +16,7 @@ nav {
     padding: 0.75rem;
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 nav a{
@@ -148,7 +149,7 @@ footer ul li a{
 @media screen and (max-width: 48em) {
 
     .gallery-images {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .about img{
