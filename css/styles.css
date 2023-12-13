@@ -1,7 +1,6 @@
 :root {
     --dark-color: #7f8478;
     --light-color: rgb(228, 221, 208);
-    --green-color: rgb(156, 187, 132);
     --heading-font: "acumin-variable", sans-serif;
 }
 
@@ -9,15 +8,16 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light-color);
 }
 
 nav {
     margin: auto;
     background-color: var(--light-color);
+    max-width: 70rem;
     padding: 0.75rem;
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
     border-bottom: 0.8px solid var(--dark-color);
     font-size: 1.2rem;
 }
@@ -103,7 +103,6 @@ nav a{
     grid-template-rows: repeat(auto, 12.5rem);
     max-width: 75rem;
     margin: 0 auto;
-    min-height: 50rem;
 }
 
 .gallery-images img{
@@ -166,7 +165,7 @@ nav a{
 
 .container{
     margin: 0 auto;
-    padding: 2rem 5rem 15rem 5rem;
+    padding: 2rem 5rem 5rem 5rem;
     display: grid;
     column-gap: 2rem;
     grid-template-columns: 2fr 1fr;
@@ -366,6 +365,7 @@ footer ul li a{
 
     .container{
         grid-template-columns: 1fr;
+        padding: 2rem 2rem 5rem 2rem;
     }
 
     .left-column, .right-column {
@@ -374,9 +374,9 @@ footer ul li a{
 
     .left-column img{
         max-height: 25rem;
+        width: 100%;
     }
 
-    
     .product-description h1{
         font-size: 2.3rem;
     }
