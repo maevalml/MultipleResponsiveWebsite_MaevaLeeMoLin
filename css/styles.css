@@ -19,6 +19,7 @@ nav {
     justify-content: space-between;
     max-width: 100%;
     border-bottom: 0.8px solid var(--dark-color);
+    font-size: 1.2rem;
 }
 
 nav a{
@@ -167,7 +168,7 @@ nav a{
     margin: 0 auto;
     padding: 2rem 5rem 15rem 5rem;
     display: grid;
-    column-gap: 1rem;
+    column-gap: 2rem;
     grid-template-columns: 2fr 1fr;
     background-color: var(--light-color);
 }
@@ -193,6 +194,7 @@ nav a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    height: 10rem;
 }
 
 .right-column{
@@ -222,7 +224,6 @@ nav a{
 .product-description p{
     font-size: 1rem;
     color: var(--dark-color);
-    font-weight: 300;
     line-height: 1.5rem;
 }
 
@@ -248,6 +249,7 @@ nav a{
 .product-price{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .product-price span{
@@ -305,6 +307,10 @@ footer ul li a{
         font-size: 2.5rem;
     }
 
+    .container{
+        column-gap: 3rem;
+    }
+
     .left-column, .right-column {
         width: 100%;
     }
@@ -336,7 +342,7 @@ footer ul li a{
     }
 
     .product-gallery img{
-        max-height: 10rem;
+        height: 12rem;
     }
 
     
@@ -356,6 +362,10 @@ footer ul li a{
 
     .hero-image h1{
         font-size: 2rem;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
     }
 
     .left-column, .right-column {
@@ -380,12 +390,17 @@ footer ul li a{
     }
 
     .product-gallery{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 0.8rem;
     }
 
     .product-gallery img{
-        max-height: 9rem;
+        height: 10rem;
+    }
+
+    .cart-button{
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
     }
 
 }
