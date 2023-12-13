@@ -210,7 +210,7 @@ nav a{
 }
 
 .product-description span, .product-grind span{
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: var(--dark-color);
     letter-spacing: 1px;
     text-decoration: none;
